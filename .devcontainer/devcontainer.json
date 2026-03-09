@@ -1,0 +1,6 @@
+{
+  "name": "Arch Linux Minimal",
+  "image": "archlinux:latest",
+  "remoteUser": "root",
+  "postCreateCommand": "pacman -Syu --noconfirm nodejs npm git base-devel rust"
+}
