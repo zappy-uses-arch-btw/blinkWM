@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "packages/blinkwm",
+    "packages/blinkwm-bar",
+    "packages/blinkwm-dmenu",
+    "packages/blinkwm-tray",
+    "packages/blinkwm-config",
+    "packages/blinkwm-session",
+    "packages/blinkwm-common",
+]
+resolver = "2"
